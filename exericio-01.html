@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio</title>
+</head>
+<body>
+    <h1>Controle de qualidade</h1>
+    <div id="quantidade"></div>
+    <div id="total"></div>
+    <script>
+        
+        
+        let peca = 0;
+        let numeroPeca = 0;
+        let Aprovadas = 0;
+        let Reprovadas = 0;
+        let total;
+        
+        while (numeroPeca < 5) {
+            let quantidade = Number(prompt("digite o número da peça"));
+            peca = prompt("digite  se a peça esta: 1 - aprovada   2 - reprovada");
+            
+            
+
+                if (peca == "1") {
+                    "peça: " + quantidade + "</br>"+
+                    "peça: " + qualidade +  "</br>"+
+                    "peça: " + aprovados + "</br>" ;
+                    totalAprovadas += "</br> aprovados" + aprovados + "</br> peça: " + peca + "</br>"
+                    document.getElementById("quantidade").innerHTML = aprovados;
+                    numeroPeca++
+                    
+                }
+                
+                if (peca == "2") {
+                    "peça: " + quantidade + "</br>"+
+                    "peça; " + reprovados + "</br>"+
+                    "peça :" + total ;
+                  
+                   totalReprovadas += "peça: " + reprovados + "reprovados" + peca + "</br>"
+                   document.getElementById("quantidade").innerHTML = reprovados;
+                   numeroPeca++
+                }
+
+            }
+        
+        document.getElementById("total").innerHTML = total;
+        
+
+    </script>
+</body>
+</html>
